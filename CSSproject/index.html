@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>CSS Project One</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/starter-template/">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.typekit.net/gkc6sqp.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row top-blue-bar">
+        <!-- top blue setting -->
+         <div class="col-md-8 col-sm-4"></div>
+        <div class="col-md-4 col-sm-8  settings-box">
+          <i class="spritetopmenu spritetopmenu-top-bar-words head-icons head-text"></i>
+          <i class="spritetopmenu spritetopmenu-top-bar-question head-icons"></i>
+          <i class="spritetopmenu spritetopmenu-top-bar-setting settings-icon head-icons"></i>
+          
+         </div>
+      </div>
+      
+
+      <div class="row top-icon-bar ">
+        <!-- main menu -->
+        <div class="col-lg-3 col-md-2 col-sm-1 "></div>
+        <div class="col-lg-6 col-md-8 col-sm-10 ">
+          <div class="row dash-row">
+            <div class="dash-buttons col-md-2"> 
+                <i class="  updatedspritemainpage updatedspritemainpage-dashboard-green-dial dashboard-button1 dial-icons"></i>
+                <i class=" spritetopmenu spritetopmenu-menu-blue-dashboard dashboard-button2 dial-icons"></i>
+              <i class="updatedspritemainpage updatedspritemainpage-dashboard-white-arrow dash-arrow"></i>
+              
+            </div>
+            <div class="dash-buttons col-md-2 ">
+              <i class=" updatedspritemainpage updatedspritemainpage-dashboard-green-people dashboard-button1 "></i>
+              <i class=" spritetopmenu spritetopmenu-menu-blue-people dashboard-button2"></i>
+              <i class="updatedspritemainpage updatedspritemainpage-dashboard-white-arrow dash-arrow"></i>
+              
+        
+            </div>
+            <div class="dash-buttons col-md-2">
+              <i class=" updatedspritemainpage updatedspritemainpage-dashboard-green-chat dashboard-button1 dial"></i>
+              <i class=" spritetopmenu spritetopmenu-menu-blue-chat dashboard-button2 dial"></i>
+              <i class="updatedspritemainpage updatedspritemainpage-dashboard-white-arrow dash-arrow"></i>
+            </div>
+            <div class="dash-buttons col-md-2">
+              <i class=" updatedspritemainpage updatedspritemainpage-dashboard-green-doc dashboard-button1"></i>
+              <i class=" spritetopmenu spritetopmenu-menu-blue-doc dashboard-button2"></i>
+              <i class="updatedspritemainpage updatedspritemainpage-dashboard-white-arrow dash-arrow"></i>
+            </div>
+            <div class="dash-buttons col-md-2">
+              <i class="updatedspritemainpage updatedspritemainpage-dashboard-green-tag dashboard-button1"></i>
+              <i class=" spritetopmenu spritetopmenu-menu-dash-price dashboard-button2"></i>
+              <i class="updatedspritemainpage updatedspritemainpage-dashboard-white-arrow dash-arrow"></i>
+            </div>
+            <div class="dash-buttons col-md-2">
+              <i class="updatedspritemainpage updatedspritemainpage-dashboard-green-graph dashboard-button1"></i>
+              <i class=" spritetopmenu spritetopmenu-menu-blue-graph dashboard-button2"></i>
+              <i class="updatedspritemainpage updatedspritemainpage-dashboard-white-arrow dash-arrow"></i>
+            </div>
+        
+          </div>
+        </div>
+          <div class="col-lg-3 col-md-2 col-sm-1"></div>
+      </div>
+      
+    </div>
+    <div class="container green-bar">
+      <div class="row">
+        <div class="dashboard-text col-xl-5 col-lg-5 col-md-5 col-sm-6 ">Dashboard</div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-5   searchbar">
+          
+            <form action="#" method="get">
+              <input class="search" type="text" value="" onclick="myFunction()" class= searchbar>
+              <button type="submit" class="search-button-icon">
+                <i class="updatedspritemainpage updatedspritemainpage-searchbar-blue-button "></i>
+            </form>
+          
+        </div>
+        <div class=" col-xl-1 col-lg-1"></div>
+        
+      </div>
+    </div>
+    <div class="container main-content">
+      <div class="row announcements">
+        <div class="col-lg-2 col-md-3 col-sm-3 top-strip-content announce">ANNOUNCEMENTS</div>
+        <div class="col-lg-9 col-md-8 col-sm-7 top-strip-content">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</div>
+        <div class="col-lg-1 col-md-1 col-sm-2 top-strip-content announce-arrow-row">
+          <div class="row">
+            <div class="announce-arrows col-lg-6 col-md-6 col-sm-6 ">
+              <button class="announce-buttons">
+                <i class="updatedspritemainpage updatedspritemainpage-announcements-left-arrow"></i>
+              </button>
+              
+            </div>
+            <div class="announce-arrows col-lg-6 col-md-6 col-sm-6 ">
+              <button class="announce-buttons">
+                <i class="updatedspritemainpage updatedspritemainpage-announcements-right-arrow"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="row">
+        <!-- Main content area -->
+        <div class="col-md-4 col-sm-6  tasksandrecs">
+          <div class="row tasks">
+              <div class="col-md-12 task-list">
+              <ul class="task-list-title">Tasks
+                <ol class="task-items">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 welcome-contacts">
+                      <div class="dot">1</div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 task-text">Welcome Contacts
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-2 profile-1">
+                      <i class="spritemainpage spritemainpage-task-blue-profile prof-1"></i>
+                      <i class="spritemainpage spritemainpage-task-grey-profile prof-2"></i>
+                      <div class="prof-text">32</div>
+                    </div>
+                  </div>
+                
+                 </ol>
+                <ol class="task-items">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2
+                    provide-responses">
+                      <div class="dot">2</div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 task-text">Provide Responses
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-2 profile-1">
+                      <i class="spritemainpage spritemainpage-task-blue-profile prof-1"></i>
+                      <i class="spritemainpage spritemainpage-task-grey-profile prof-2"></i>
+                      <div class="prof-text">36</div>
+                    </div>
+                  </div>
+                </ol>
+                <ol class="task-items">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2
+                    review-activity">
+                      <div class="dot">3</div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 task-text">Review Activity
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-2 profile-1">
+                      <i class="spritemainpage spritemainpage-task-blue-profile prof-1"></i>
+                      <i class="spritemainpage spritemainpage-task-grey-profile prof-2"></i>
+                      <div class="prof-text">36</div>
+                    </div>
+                  </div>
+                </ol>
+                <ol class="task-items">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2
+                    reach-out">
+                      <div class="dot">4</div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 task-text">Reach Out
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-2 profile-1">
+                      <i class="spritemainpage spritemainpage-task-blue-profile prof-1"></i>
+                      <i class="spritemainpage spritemainpage-task-grey-profile prof-2"></i>
+                      <div class="prof-text">3</div>
+                    </div>
+                  </div>
+                </ol>
+              </ul>
+            </div>
+            
+          </div>
+          <div class="row recommendations">Recommendations
+          <div class="col-md-12">
+            <div class="row rec-rows rec-row-1">
+              <div class="col-md-2">
+                <i class="spritemainpage spritemainpage-reccomendation-doc-green rec-img"></i>
+              </div>
+              <div class="col-md-10 rec-text">
+                <div class="small-rec-text">Article</div>
+                <div class="big-rec-text">7 Steps to getting more Fans</div>
+              </div>
+            </div>
+            <div class="row rec-rows rec-row-2">
+              <div class="col-md-2">
+                <div class="row">
+                  
+                </div>
+                <i class="spritemainpage spritemainpage-reccomendation-doc-green rec-img"></i>
+
+              </div>
+              <div class="col-md-10">
+                <div class="small-rec-text">Article</div>
+                  <div class="big-rec-text">Increase traction with more interactions</div>
+              </div>
+            </div>
+            <div class="row rec-rows rec-row-3">
+              <div class="col-md-2">
+                <i class="spritemainpage spritemainpage-reccomendation-check-green rec-img"></i>
+
+              </div>
+              <div class="col-md-10">
+                <div class="row">
+                  <div class="small-rec-text">Checklist</div>
+                  <div class="big-rec-text">Creating a Promotion</div>
+                </div>
+              </div>
+            </div>
+            <div class="row rec-rows rec-row-4">
+              <div class="col-md-2">
+                <i class="spritemainpage spritemainpage-reccomendation-lightbulb-green rec-img"></i>
+
+              </div>
+              <div class="col-md-10">
+                <div class="small-rec-text">Tip</div>
+                  <div class="big-rec-text">Share</div>
+              </div>
+            </div>
+          </div>
+            
+          <div class="col-md-9 rec-text"></div>
+        </div>
+        </div>
+        
+        
+        <div class="col-md-8 col-sm-6 analytics-big">
+          <div class="row ">
+            <div class="col-md-12 title">Analytics
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="row analytics-row">
+                    <div class="col-md-4">ACTIVITY</div>
+                    <div class="col-md-8 drop-arrow">
+                      <select class="form-select" aria-label="Date Select">
+                      <option selected>06/28/11 - 07/21/22</option>
+                      <option value="1">06/28/11</option>
+                      <option value="2">07/07/11</option>
+                      <option value="3">07/14/11</option>
+                      <option value="4">07/21/11</option>
+                    </select>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 analytics-graph">
+
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+              
+              <div class="col-md-4">
+                <div class="row analytics-row">
+                  <div class="col-md-12">CHANNELS</div>
+              
+                </div>
+                <div class="col-md-12">
+                  <i class="updatedspritemainpage updatedspritemainpage-analytics-pie-chart analyticspie"></i>
+                </div>
+              </div>
+              </div>
+
+            </div>
+              <div class="row">
+                <div class="col-md-12 checkboxes">
+                  <div class="row checkbox-row">
+                    
+                    <div class="col-md-3 col-sm-3">
+                      <div class="row checks">
+                        <div class="col-md-4 check-icons">
+                          <input type="checkbox" class="check-buttons"></input>
+                        </div>
+                        <div class="col-md-8 social-media facebook">
+                          
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                      <div class="row checks">
+                        <div class="col-md-4 check-icons">
+                          <input type="checkbox" class="check-buttons"></input>
+                        </div>
+                        <div class="col-md-8 social-media twitter">
+                          
+
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                      <div class="row checks">
+                        <div class="col-md-4 check-icons">
+                          <input type="checkbox" class="check-buttons"></input>
+                        </div>
+                        <div class="col-md-8 social-media fourspace">
+                          
+
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                      <div class="row checks">
+                        <div class="col-md-4 check-icons">
+                          <input type="checkbox" class="check-buttons"></input>
+                        </div>
+                        <div class="col-md-8 social-media google">
+                          
+                        </div>
+                      
+
+                      </div>
+                      
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="row profiles">
+          <div class="col-md-6 profilepics">
+            <div class="ribbon-edge-left">
+              <i class="updatedspritemainpage updatedspritemainpage-customer-contact-left-banner-edge"></i>
+            </div>
+            <div class="ribbon-edge-right">
+              <i class="updatedspritemainpage updatedspritemainpage-customer-contact-left-banner-edge"></i>
+            </div>
+            
+
+            <div class="row prof-row">
+              <div class="col-md-2">
+
+              </div>
+              <div class="col-md-8 contacts-box ">
+                
+                <div class="row ">
+                  <div class="col-md-12 contact-img"> 
+                    <i class="profilespritesheet profilespritesheet-green-profile"></i>
+
+                  </div>
+                </div>
+                <div class="row contacts-customers-text">
+                    <div class="col-md-12 big-prof-text contacts-content">75 Contacts</div>
+                </div>
+                <div class="row contacts-customers-text">
+                  <div class="col-md-12 small-prof-text contacts-content">4 INFLUENCERS</div>
+                </div>
+                <div class="row graph-row"> 
+                  <div class="col-md-12 contacts-content contact-graph">
+                    
+                  </div>
+
+                </div>
+                  
+
+              </div>
+                <div class="col-md-2">
+                  
+                </div>
+              </div>
+            
+              
+          </div>
+          <div class="col-md-6 profilepics">
+            <div class="ribbon-edge-left">
+              <i class="updatedspritemainpage updatedspritemainpage-customer-contact-left-banner-edge"></i>
+            </div>
+            <div class="ribbon-edge-right">
+              <i class="updatedspritemainpage updatedspritemainpage-customer-contact-left-banner-edge"></i>
+            </div>
+            <div class="row prof-row">
+              <div class="col-md-2"></div>
+              <div class="col-md-8 contacts-box ">
+                
+                <div class="row ">
+                  <div class="col-md-12 contacts-content contact-img"> 
+                    <i class="profilespritesheet profilespritesheet-orange-profile"></i>
+
+
+                  </div>
+                </div>
+                <div class="row contacts-customers-text">
+                    <div class="col-md-12 big-prof-text contacts-content">17 Customers</div>
+                </div>
+                <div class="row contacts-customers-text">
+                  <div class="col-md-12 small-prof-text contacts-content">0 INFLUENCERS</div>
+                </div>
+                <div class="row"> 
+                  <div class="col-md-12 contacts-content customer-graph">
+                
+                  </div> 
+                </div>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+          </div>
+      </div>
+      <div class="row banner">
+        <div class="col-md-1 banner-arrow-1">
+          <i class="updatedspritemainpage updatedspritemainpage-banner-left-arrow left-banner-arrow"></i>
+        </div>
+        <div class="col-md-10 banner-text-box">
+          <div class="banner-text banner-title">DID YOU KNOW?</div>
+          <div class="banner-text banner-body">Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</div>
+        </div>
+        <div class="col-md-1 banner-arrow-2">
+          <i class="updatedspritemainpage updatedspritemainpage-banner-right-arrow right-banner-arrow"></i>
+
+        </div>
+      </div>
+      
+
+      </div>
+      </div>
+      <div class = "container">
+        <div class="row">
+          <div class="col-md-12 outer-ad-box">
+            <div class="row">
+              <div class="col-md-3 bottom-pics outside-ad-pic">
+                <div class="ad-pic-1"></div>
+                
+              </div>
+              <div class="col-md-3 bottom-pics outside-ad-pic">
+                <div class="ad-pic-2"></div>
+              </div>
+              <div class="col-md-3 bottom-pics outside-ad-pic">
+                <div class="ad-pic-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+
+      <!-- close main content area -->
+
+      <!-- close container -->
+      <footer class="footer  container-fluid ">
+          <div class="row ">
+            <div class="col-md-3 col-sm-4 col-xs-4">
+              <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-3 ">Tutorials</div>
+              <div class="col-md-3 bordertext">Support</div>
+              <div class="col-md-3 bordertext">Blog</div>
+            </div>
+            </div>
+            <div class="col-md-5 col-sm-0">
+              <div class="row">
+              <div class="col-md-10 bordertext"><span class="blue-text">Ariel Winter</span> likes your <span class="blue-text">Win a Cooper Sweepstakes</span> Promotion</div>
+              <i class="spritemainpage spritemainpage-footer-blue-up-arrow col-md-2 bluefootarrow "></i>
+            </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-4">
+              <i class="spritemainpage spritemainpage-footer-logout-button logout"></i>
+
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-4">
+              <i class="spritemainpage spritemainpage-footer-social-media-buttons"></i>
+
+            </div>
+          </div>
+    </footer>
+        
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
